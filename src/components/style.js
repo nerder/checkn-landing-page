@@ -293,7 +293,7 @@ export default createGlobalStyle`
 
   @media only screen and (max-width: 992px) {
     .formEmailContainer {
-      transform: none;
+      transform: scale(0.8);
       margin: 0 auto;
     }
   }

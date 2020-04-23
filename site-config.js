@@ -14,7 +14,7 @@ module.exports = {
 
   // Personal Info
   your_name              : "a bunch of people",
-  your_link              : "https://checkn.co",
+  your_link              : "https://github.com/nerder/checkn-landing-page",
   your_city              : "Remote 💻",
   email_address          : "stefano.saita92@gmail.com",
   linkedin_username      : "etcpasswd",
@@ -28,55 +28,38 @@ module.exports = {
     {
       title: "Attandance management",
       description:
-        "Designed for GitHub Pages and Netlify. Fork. Edit site-config.js. Upload screenshot/video. Push to gh-pages branch. Voilà!",
-      fontawesome_icon_name: "magic",
+        "Help businesses managing the influx of customers. Offering a smooth experience, while maintaining safety",
+      fontawesome_icon_name: "user-check",
     },
     {
       title: "Contact tracing",
       description:
-        "Preview your app in the context of an iPhone device. Five different device colors included.",
-      fontawesome_icon_name: "mobile",
+        "We use the best contact tracing technologies out there to help the community and to preserve people at risk",
+      fontawesome_icon_name: "shoe-prints",
+    },
+    {
+      title: "Decentralized",
+      description:
+        "Based on the DP-3T protocol to guarantee the high possible standard in digital contact tracing",
+      fontawesome_icon_name: "people-carry",
     },
     {
       title: "Private by default",
       description:
-        "Preview app video on the iPhone device simply by placing your video files in the videos folder.",
-      fontawesome_icon_name: "play-circle",
+        "The safety of users' data is our top priority. Our software is created with privacy in mind at all times",
+      fontawesome_icon_name: "user-shield",
     },
     {
       title: "Multi platform",
       description:
-        "No need to worry about page performance or optimizing images and videos. Everything is already configured for the best performance possible!",
-      fontawesome_icon_name: "sync",
+        "Truly multi-platform. From mobile to the web to the desktop to offer you a comprehensive experience",
+      fontawesome_icon_name: "mobile-alt",
     },
     {
-      title: "Easy to Tweak",
+      title: "Open Source",
       description:
-        "Tweak accent color, images, icons and transparency via the site-config.js file. No HTML/CSS needed.",
-      fontawesome_icon_name: "adjust",
-    },
-    {
-      title: "Feature List",
-      description:
-        "Add features (like this one) to your site via the site-config.js file. No HTML/CSS needed.",
-      fontawesome_icon_name: "star",
-    },
-    {
-      title: "Deploy to Netlify",
-      description: "Easily deploy your GatsbyJS landing page to Netlify.",
-      fontawesome_icon_name: "arrow-alt-circle-down",
-    },
-    {
-      title: "Social Links",
-      description:
-        "Easily add social media accounts and contact info in the footer via the site-config.js file. No HTML/CSS needed.",
-      fontawesome_icon_name: "link",
-    },
-    {
-      title: "FontAwesome Support",
-      description:
-        "Pick custom Font Awesome icons for the feature list via the site-config.js file. No HTML/CSS needed.",
-      fontawesome_icon_name: "info-circle",
+        "Always open for you to see. Made for the community by the community",
+      fontawesome_icon_name: "code-branch",
     },
   ],
   header_background             : "#1c1c1c",

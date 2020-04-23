@@ -32,12 +32,6 @@ export default class FormEmail extends React.Component {
     event.preventDefault()
   }
 
-  // $black: #000000;
-  // $cornflower-lilac: #81c4f8;
-  // $salmon: #3070ab;
-  // $white: #ffffff;
-  // $your-pink: #b8dffd;
-
   render() {
     return (
       <React.Fragment>
