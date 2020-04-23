@@ -4,6 +4,7 @@ import Img from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import FormEmail from "../components/form"
 
 import "@fortawesome/fontawesome-free/css/all.min.css"
 
@@ -138,23 +139,32 @@ const IndexPage = ({ data }) => (
             <div className="appDescriptionContainer">
               <p className="appDescription">{configs.app_description}</p>
             </div>
-            <div className="downloadButtonsContainer">
-              {configs.playstore_link && (
-                <a className="playStoreLink" href={configs.playstore_link}>
-                  <Img
-                    fixed={data.playStore.childImageSharp.fixed}
-                    className="playStore"
-                  />
-                </a>
-              )}
-              {configs.appstore_link && (
-                <a className="appStoreLink" href={configs.appstore_link}>
-                  <Img
-                    fixed={data.appStore.childImageSharp.fixed}
-                    className="appStore"
-                  />
-                </a>
-              )}
+
+            <div className="appButtonContainer">
+              <div className="soonInTheStores">
+                <h2>Coming Soon</h2>
+              </div>
+              <div className="downloadButtonsContainer">
+                {configs.playstore_link && (
+                  <a className="playStoreLink" href={configs.playstore_link}>
+                    <Img
+                      fixed={data.playStore.childImageSharp.fixed}
+                      className="playStore"
+                    />
+                  </a>
+                )}
+                {configs.appstore_link && (
+                  <a className="appStoreLink" href={configs.appstore_link}>
+                    <Img
+                      fixed={data.appStore.childImageSharp.fixed}
+                      className="appStore"
+                    />
+                  </a>
+                )}
+              </div>
+            </div>
+            <div className="formEmailContainer">
+              <FormEmail />
             </div>
           </div>
           <div className="features">
@@ -207,7 +217,9 @@ const IndexPage = ({ data }) => (
 
               {configs.linkedin_username && (
                 <a
-                  href={`https://www.linkedin.com/in/${configs.linkedin_username}`}
+                  href={`https://www.linkedin.com/in/${
+                    configs.linkedin_username
+                  }`}
                   aria-label="LinkedIn"
                 >
                   <span className="fa-stack fa-1x">
@@ -304,7 +316,7 @@ export const query = graphql`
         }
       }
     }
-    headerImage: file(relativePath: { eq: "headerimage.png" }) {
+    headerImage: file(relativePath: { eq: "headerimage.jpg" }) {
       childImageSharp {
         fluid(maxHeight: 714) {
           ...GatsbyImageSharpFluid

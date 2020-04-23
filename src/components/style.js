@@ -263,6 +263,18 @@ export default createGlobalStyle`
     color: ${configs.app_description_color};
   }
 
+  .appButtonContainer {
+    display: flex;
+    flex-direction: column;
+    aling-items: center;
+  }
+
+  .soonInTheStores {
+    margin-top: 22.5px;
+    font-size: 2.5rem;
+    color: ${configs.app_description_color};
+  }
+
   @media only screen and (max-width: 992px) {
     .appDescription {
       text-align: center;
@@ -271,13 +283,36 @@ export default createGlobalStyle`
 
   .downloadButtonsContainer {
     display: inline-block;
-    margin-top: 42px;
+    margin-top: 22px;
     filter: drop-shadow(0px 5px 10px rgba(#000, 0.1)) drop-shadow(0px 1px 1px rgba(#000, 0.2));
+  }
+
+  .formEmailContainer {
+    transform: translateX(15%);
+  }
+
+  @media only screen and (max-width: 992px) {
+    .formEmailContainer {
+      transform: none;
+      margin: 0 auto;
+    }
   }
 
   @media only screen and (max-width: 992px) {
     .downloadButtonsContainer {
-      text-align: center;
+      transform: scale(0.6);
+      margin-top: 0px;
+      display: flex;
+      margin-top: 0px;
+    }
+
+    .playStoreLink {
+      padding-right: 25px;
+    }
+
+    .soonInTheStores {
+      margin: 0 auto;
+      padding-top: 15px;
     }
   }
 

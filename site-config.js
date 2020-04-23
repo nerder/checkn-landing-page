@@ -1,51 +1,50 @@
 module.exports = {
   // App Info
-  appstore_link         : "https://imedadel.me",                                  // Enter App Store URL.
-  playstore_link        : "https://imedadel.me",                                  // Enter Google Play Store URL.
-  google_analytics_ID   : "UA-47311644-5",                                        // Enter Google Analytics ID or ""
-  presskit_download_link: "https://imedadel.me",                                  // Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+  appstore_link         : "#",                                  // Enter App Store URL.
+  playstore_link        : "#",                                  // Enter Google Play Store URL.
+  google_analytics_ID   : "UA-164389657-1",                                        // Enter Google Analytics ID or ""
+  presskit_download_link: null,                                  // Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
   video_or_screenshot   : "screenshot",                                           // "screenshot" or "video"
-  app_url               : "https://agalp.imedadel.me",                            // Domain of your website without path_prefix.
+  app_url               : "https://checkn.co",                            // Domain of your website without path_prefix.
   path_prefix           : "/",                                                    // Prefixes all links. For cases when deployed to example.github.io/automatic-gatsbyjs-app-landing-page/.
-  app_name              : "AGALP",
+  app_name              : "checkn",
   app_price             : "Free",
-  app_description       : "Automatically generate GatsbyJS app landing pages.",
-  app_keywords          : ["automatic", "gatsbyjs", "app", "landing page"],
+  app_description       : "Attendance management and contact tracing made easy",
+  app_keywords          : ["contact tracing", "covid19", "app", "landing page"],
 
   // Personal Info
-  your_name              : "Imed Adel",
-  your_link              : "https://imedadel.me",
-  your_city              : "Sousse",
-  email_address          : "hello@imedadel.me",
-  linkedin_username      : null,
+  your_name              : "a bunch of people",
+  your_link              : "https://checkn.co",
+  your_city              : "Remote 💻",
+  email_address          : "stefano.saita92@gmail.com",
+  linkedin_username      : "etcpasswd",
   facebook_username      : null,
-  instagram_username     : "ed_adel",
-  twitter_username       : "Imed_Adel",
-  github_username        : "ImedAdel",
+  twitter_username       : "_nerder",
+  github_username        : "nerder",
   youtube_username       : null,
 
   // Features List
   features               : [
     {
-      title: "GitHub Pages GatsbyJS Starter",
+      title: "Attandance management",
       description:
         "Designed for GitHub Pages and Netlify. Fork. Edit site-config.js. Upload screenshot/video. Push to gh-pages branch. Voilà!",
       fontawesome_icon_name: "magic",
     },
     {
-      title: "iPhone Device Preview",
+      title: "Contact tracing",
       description:
         "Preview your app in the context of an iPhone device. Five different device colors included.",
       fontawesome_icon_name: "mobile",
     },
     {
-      title: "Video Support",
+      title: "Private by default",
       description:
         "Preview app video on the iPhone device simply by placing your video files in the videos folder.",
       fontawesome_icon_name: "play-circle",
     },
     {
-      title: "Optimized Performance",
+      title: "Multi platform",
       description:
         "No need to worry about page performance or optimizing images and videos. Everything is already configured for the best performance possible!",
       fontawesome_icon_name: "sync",
@@ -80,23 +79,23 @@ module.exports = {
       fontawesome_icon_name: "info-circle",
     },
   ],
-  header_background             : "rgba(0, 0, 0, 0.1)",
-  topbar_title_color            : "#ffffff",
-  cover_overlay_color_rgba      : "rgba(54, 59, 61, 0.8)",
+  header_background             : "#1c1c1c",
+  topbar_title_color            : "#e7e8eb",
+  cover_overlay_color_rgba      : "rgba(54, 59, 61, 0.6)",
   device_color                  : "black",                          // Set to "black", "blue", "coral", "white", or "yellow"
-  body_background_color         : "ffffff",
-  primary_text_color            : "#000",
+  body_background_color         : "#2d2d2d",
+  primary_text_color            : "#959ca3",
   content_width                 : "1170px",
   font                          : `"Helvetica Neue", sans-serif`,
-  link_color                    : "#1d63ea",
-  app_title_color               : "#ffffff",
-  app_price_color               : "#ffffff",
-  app_description_color         : "#ffffff",
-  feature_title_color           : "#000000",
-  feature_text_color            : "#666666",
-  feature_icons_foreground_color: "#1d63ea",
+  link_color                    : "#3ca4ff",
+  app_title_color               : "#e7e8eb",
+  app_price_color               : "#eeeeee",
+  app_description_color         : "#e7e8eb",
+  feature_title_color           : "#e7e8eb",
+  feature_text_color            : "#959ca3",
+  feature_icons_foreground_color: "#3ca4ff",
   feature_icons_background_color: "#e6e6e6",
-  social_icons_foreground_color : "#666666",
+  social_icons_foreground_color : "#393939",
   social_icons_background_color : "#e6e6e6",
-  footer_text_color             : "#666666",
+  footer_text_color             : "#959ca3",
 }

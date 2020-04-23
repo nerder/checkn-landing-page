@@ -38,6 +38,12 @@ module.exports = {
         trackingId: configs.google_analytics_ID
       }
     },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+          endpoint: 'https://gmail.us8.list-manage.com/subscribe/post?u=ea9062a17764567e86d670145&amp;id=2dde35a291', // MC list endpoint here.
+      },
+    },
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
@@ -45,4 +51,5 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // 'gatsby-plugin-offline',
   ],
+  
 }
